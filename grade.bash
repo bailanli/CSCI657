@@ -11,7 +11,7 @@ else if [ "$1" == "all" ]
      fi
 fi
 
-ASSIGNMENT=4a
+ASSIGNMENT=4b
 DIR=$PWD
 #TAG=a1p1
 #FOLDER=wordcount
@@ -40,6 +40,10 @@ case "$ASSIGNMENT" in
 4a)
   TAG=a4ahandin
   FOLDER=shardmaster
+  ;;
+4b)
+  TAG=a4bhandin
+  FOLDER=shardkv
   ;;
 *)
   ;;

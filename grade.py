@@ -2,8 +2,8 @@ import sys
 import os
 import math
 
-NUM = 6 
-assignment_name = ['wordcount', 'mapreduce', 'viewservice', 'pbservice', 'paxos', 'kvpaxos', 'shardmaster']
+NUM = 7
+assignment_name = ['wordcount', 'mapreduce', 'viewservice', 'pbservice', 'paxos', 'kvpaxos', 'shardmaster', 'shardkv']
 
 point = {'wordcount' : [25],
          'mapreduce' : [25, 25, 25],
@@ -11,7 +11,8 @@ point = {'wordcount' : [25],
          'pbservice' : [7, 7, 7, 7, 7, 7, 7, 7, 10, 7, 10, 7, 10],
          'paxos' : [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 10, 5, 5, 5, 10, 5],
          'kvpaxos' : [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 10, 10],
-         'shardmaster' : [10, 10, 10, 10, 10, 10, 10, 20, 10]}
+         'shardmaster' : [10, 10, 10, 10, 10, 10, 10, 20, 10],
+         'shardkv' : [20, 20, 20, 20, 20]}
 
 def get_grade(folder):
   assignment = assignment_name[NUM]
